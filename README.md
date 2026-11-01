@@ -7,4 +7,5 @@ Each day gets a branch `task/YYYY-MM-DD` with a brief in `days/YYYY-MM-DD/TASK.m
 
 | Date | Track | Task | Status |
 |---|---|---|---|
-| 2026-10-31 | Thesis (step 1/8) | [REST API sample app with tests](days/2026-10-31/TASK.md) | in progress |
+| 2026-10-31 | Thesis (step 1/8) | REST API sample app with tests (brief on branch `task/2026-10-31`) | not started, repeated 2026-11-01 |
+| 2026-11-01 | Thesis (step 1/8, repeat) | [REST API sample app with tests](days/2026-11-01/TASK.md) | in progress |
