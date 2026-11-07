@@ -13,4 +13,5 @@ Each day gets a branch `task/YYYY-MM-DD` with a brief in `days/YYYY-MM-DD/TASK.m
 | 2026-11-03 | Thesis (step 1/8, milestone edition) | REST API sample app with tests (brief on branch `task/2026-11-03`) | not started, carried over |
 | 2026-11-04 | Thesis (step 1/8, priority-order edition) | REST API sample app with tests (brief on branch `task/2026-11-04`) | not started, carried over |
 | 2026-11-05 | Thesis (step 1/8, restart + replan edition) | REST API sample app with tests (brief on branch `task/2026-11-05`) | not started, carried over |
-| 2026-11-06 | Thesis (step 1/8, unblock edition) | [REST API sample app with tests](days/2026-11-06/TASK.md) (brief on branch `task/2026-11-06`) | in progress |
+| 2026-11-06 | Thesis (step 1/8, unblock edition) | REST API sample app with tests (brief on branch `task/2026-11-06`) | not started, carried over |
+| 2026-11-07 | Thesis (step 1/8, weekend ladder edition) | [REST API sample app with tests](days/2026-11-07/TASK.md) (brief on branch `task/2026-11-07`) | in progress |
