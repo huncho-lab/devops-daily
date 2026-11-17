@@ -23,6 +23,7 @@ Each day gets a branch `task/YYYY-MM-DD` with a brief in `days/YYYY-MM-DD/TASK.m
 | 2026-11-13 | Thesis (step 1/8, unstick edition) | REST API sample app with tests (brief on branch `task/2026-11-13`) | not started, carried over |
 | 2026-11-14 | Thesis (step 1/8, last weekend edition) | REST API sample app with tests (brief on branch `task/2026-11-14`) | not started, carried over |
 | 2026-11-15 | Thesis (step 1/8, Sunday finish edition) | REST API sample app with tests (brief on branch `task/2026-11-15`) | not started, carried over |
-| 2026-11-16 | Thesis (step 1/8, last thesis day edition) | REST API sample app with tests (brief on branch `task/2026-11-16`) | in progress |
+| 2026-11-16 | Thesis (step 1/8, last thesis day edition) | REST API sample app with tests (brief on branch `task/2026-11-16`) | not started, parked (push any time) |
+| 2026-11-17 | Skills, day 1 (Docker) | Hardened nginx status-page container: non-root, healthcheck, labels, read-only Compose, smoke test (brief on branch `task/2026-11-17`) | in progress |
 
-From Tue 17 Nov the daily task switches to the Skills track unless "extend thesis to <date>" is posted in Agent Hub (thread *tasks*).
+Since Tue 17 Nov the daily task is on the Skills track (rotating: Docker, GitHub Actions, AWS serverless, Kubernetes/Kind, Linux admin, monitoring, Azure DevOps, GCP, incident drills). Post "extend thesis to <date>" or "thesis + skills" in Agent Hub (thread *tasks*) to bring thesis steps back. Thesis step 1 stays parked on `task/2026-11-16`.
