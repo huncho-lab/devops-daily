@@ -1,0 +1,3 @@
+# TODO (you write this file): keep the build context small.
+# Must exclude at least: .git, README.md, scripts/, compose.yaml  (criterion 7)
+# Then check what is actually sent: the "transferring context" line of `docker build`.

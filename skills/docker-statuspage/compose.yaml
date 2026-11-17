@@ -1,0 +1,13 @@
+# TODO (you write this file). Read the Compose file reference (services, build, ports,
+# healthcheck, restart, read_only, tmpfs, environment variable interpolation).
+#
+# One service called "web" that (criteria 10 and 11):
+#   - builds from this folder and passes the build arg APP_VERSION (default "dev"
+#     when the shell variable is unset)
+#   - publishes container port 8080 on host port ${HOST_PORT}, defaulting to 8080
+#   - has a restart policy of unless-stopped
+#   - runs with a read-only root filesystem; give nginx tmpfs mounts only for the
+#     paths it really needs to write (find them from the container logs when it fails)
+#   - becomes "healthy" in `docker compose ps` within 30 seconds
+#
+# No `version:` key: it is obsolete in the current Compose specification.
