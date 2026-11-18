@@ -1,0 +1,10 @@
+# SKELETON ONLY. Move this file to .github/actions/setup-ci-tools/action.yml
+# (repo root) and replace every TODO with your own YAML (criterion 10, C3).
+#
+# TODO name:
+# TODO description:
+# TODO runs:
+#   using: composite
+#   steps that make shellcheck, bats and jq available on an Ubuntu runner
+#   (every `run:` step in a composite action needs an explicit `shell:`),
+#   and print their versions so the log shows what you got.

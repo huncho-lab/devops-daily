@@ -1,0 +1,23 @@
+# SKELETON ONLY. Move this file to .github/workflows/ci.yml (repo root) and
+# replace every TODO with your own YAML. GitHub ignores it while it lives here.
+#
+# TODO name: a readable workflow name
+#
+# TODO on:
+#   - push to branches matching task/**            (criterion 1)
+#   - pull_request to main                          (criterion 1)
+#   - paths filter on both: skills/gha-ci/** and .github/**   (criterion 8, C3)
+#   - workflow_dispatch with a boolean input run_report, default true (criterion 11, C3)
+#
+# TODO permissions: least privilege for the whole workflow (criterion 5)
+#
+# TODO concurrency: group keyed on workflow + ref, cancel-in-progress (criterion 5)
+#
+# TODO jobs:
+#   lint:     exact runner label, timeout, checkout (SHA-pinned!), tools,
+#             shellcheck on skills/gha-ci/scripts/*.sh, later actionlint   (criteria 2, 6, 10, 12)
+#   test:     needs lint, matrix over two Ubuntu labels, fail-fast false,
+#             tools via your composite action, bats tests                 (criteria 4, 10)
+#   report:   needs test, only when run_report is true (or not a manual run),
+#             repo-stats.sh --json -> repo-stats.json, Markdown table to the
+#             job summary, upload artifact "repo-stats", short retention  (criteria 9, 11)
