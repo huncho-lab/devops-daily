@@ -1,0 +1,6 @@
+Nov 18 08:01:12 web01 sshd[3101]: Accepted publickey for huncho from 192.0.2.10 port 50122 ssh2: ED25519 SHA256:q9Xc1bD0exampleFingerprintOnly
+Nov 18 09:14:40 web01 sshd[3188]: Failed password for huncho from 192.0.2.44 port 40311 ssh2
+Nov 18 09:14:52 web01 sshd[3188]: Failed password for huncho from 192.0.2.44 port 40311 ssh2
+Nov 18 09:15:03 web01 sshd[3190]: Accepted password for huncho from 192.0.2.44 port 40355 ssh2
+Nov 18 11:30:00 web01 CRON[3301]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 18 13:02:27 web01 sshd[3402]: Failed password for invalid user git from 198.51.100.23 port 52011 ssh2

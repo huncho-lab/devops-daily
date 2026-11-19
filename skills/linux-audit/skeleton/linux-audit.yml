@@ -1,0 +1,20 @@
+# SKELETON ONLY (criterion 12, C3). Move to .github/workflows/linux-audit.yml at the
+# repo root and replace every TODO with your own YAML. GitHub ignores it while it lives here.
+# Yesterday's brief (branch task/2026-11-18) has the matching GitHub Actions docs.
+#
+# TODO name
+# TODO on: push to task/** and pull_request to main, both with a paths filter on
+#          skills/linux-audit/** and this workflow file; plus workflow_dispatch
+# TODO permissions: contents: read
+# TODO jobs:
+#   audit:
+#     - exact runner label (not ubuntu-latest), timeout-minutes <= 10
+#     - checkout pinned to a full commit SHA with a version comment
+#     - install shellcheck and bats (apt-get)
+#     - shellcheck skills/linux-audit/scripts/server-audit.sh
+#     - bats skills/linux-audit/tests
+#     - copy the script to /usr/local/bin and run:
+#         systemd-analyze verify skills/linux-audit/systemd/server-audit.service skills/linux-audit/systemd/server-audit.timer
+#     - run the script for real on the runner with --json and append a Markdown
+#       table of its checks to $GITHUB_STEP_SUMMARY (do not fail the job on WARN/CRIT here:
+#       the runner is not your server; think about `|| true` vs capturing the exit code)

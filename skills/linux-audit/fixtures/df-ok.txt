@@ -1,0 +1,7 @@
+Filesystem     1024-blocks     Used Available Capacity Mounted on
+/dev/sda1         30832548 13257996  15982800      46% /
+devtmpfs           4004112        0   4004112       0% /dev
+tmpfs              4013220        0   4013220       0% /dev/shm
+/dev/sda15          106858     6186    100672       6% /boot/efi
+/dev/sdb1        103081248 61848748  36013876      64% /var
+tmpfs               802644   802644         0     100% /run/user/1000

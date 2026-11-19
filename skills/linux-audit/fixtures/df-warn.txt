@@ -1,0 +1,5 @@
+Filesystem     1024-blocks     Used Available Capacity Mounted on
+/dev/sda1         30832548 13257996  15982800      46% /
+tmpfs              4013220        0   4013220       0% /dev/shm
+/dev/sdb1        103081248 82464998  15365689      85% /srv/backups
+/dev/sdc1        103081248 84526624  13312240      87% /var

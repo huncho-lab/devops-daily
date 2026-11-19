@@ -1,0 +1,14 @@
+# SKELETON ONLY: replace every TODO with your own unit file lines (criterion 11, C3).
+# Docs: man systemd.timer, systemd.time (links in TASK.md).
+#
+# TODO [Unit]
+#   - Description=
+#
+# TODO [Timer]
+#   - OnCalendar= every day at 06:15 (check it with: systemd-analyze calendar '<your value>')
+#   - Persistent=true  (what does it do after the machine was off at 06:15?)
+#   - RandomizedDelaySec= up to 10 minutes
+#   - Unit= is optional when the names match; explain in README why.
+#
+# TODO [Install]
+#   - WantedBy=timers.target

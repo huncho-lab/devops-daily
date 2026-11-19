@@ -1,0 +1,17 @@
+# SKELETON ONLY: replace every TODO with your own unit file lines (criterion 11, C3).
+# Docs: man systemd.service, systemd.exec, systemd.unit (links in TASK.md).
+#
+# TODO [Unit]
+#   - Description=
+#   - Documentation= pointing at this repo folder
+#
+# TODO [Service]
+#   - Type=oneshot (it runs, prints, exits)
+#   - ExecStart=/usr/local/bin/server-audit.sh --json
+#   - SuccessExitStatus= so WARN (1) is not treated as a failed unit, but CRIT (2) is
+#   - Hardening (read-only audit, so lock it down):
+#       NoNewPrivileges, ProtectSystem=strict, ProtectHome=read-only, PrivateTmp,
+#       PrivateDevices, ProtectKernelTunables, RestrictSUIDSGID ... (at least 5)
+#   - Output goes to the journal by default; nothing to configure.
+#
+# NOTE: no [Install] section here. The timer starts the service.
