@@ -1,0 +1,19 @@
+# MOVE TO: .github/workflows/pipeline-dashboard.yml  (repo root, C3, criterion 12)
+
+# TODO: name
+
+# TODO: on:
+#   push to task/** with a paths filter: skills/pipeline-dashboard/** and this workflow file
+#   workflow_dispatch
+
+# TODO: top-level permissions: contents: read
+# TODO: concurrency per workflow + ref, cancel-in-progress (as on Day 2)
+
+# TODO: one job "build"
+#   - exact runner label (not ubuntu-latest), timeout-minutes <= 10
+#   - defaults.run.working-directory: skills/pipeline-dashboard/app
+#   - actions/checkout, actions/setup-node, actions/upload-artifact: each pinned to a 40-char SHA + "# vX.Y.Z" comment
+#   - setup-node: Node 22 (or node-version-file), cache: npm, cache-dependency-path: the app's package-lock.json
+#   - steps: npm ci -> npm run lint -> npm test -> npm run build
+#   - upload dist/ as artifact "pipeline-dashboard-dist", retention-days <= 7
+#   - optional: write the test count / build size to $GITHUB_STEP_SUMMARY

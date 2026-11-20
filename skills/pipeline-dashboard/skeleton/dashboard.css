@@ -1,0 +1,7 @@
+/* MOVE TO: skills/pipeline-dashboard/app/src/dashboard.css   (criterion 9) */
+
+/* TODO: mobile-first layout
+   - 375 px: one column, no horizontal scroll (watch tables and canvases)
+   - >= 1024 px: the 4 KPI tiles in one row, charts side by side or stacked, your call
+   - chart containers with a fixed height (charts use maintainAspectRatio: false)
+   - readable contrast; success/failure colours that also differ in lightness, not only hue */
